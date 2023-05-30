@@ -127,9 +127,9 @@ const myField = new Field([
 myField.playGame()
 */
 
-const height = 5; // Replace with your desired height
-const width = 10; // Replace with your desired width
-const holePercentage = 0.2; // Replace with your desired hole percentage
+const height = 5; 
+const width = 10; 
+const holePercentage = 0.2; 
 
 const myField = new Field (Field.generateField(height, width, holePercentage));
 myField.playGame();
